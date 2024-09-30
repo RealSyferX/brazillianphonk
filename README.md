@@ -8,14 +8,17 @@
 </p>
 
 
-# FIRST OF ALL GIT CLONE THIS REPO THEN TO THE COMMAND BELOW..
+# FIRST OF ALL GIT CLONE THIS REPO THEN TO THE COMMAND BELOW...
 
-## COMMANDS
+Setup Your LOCALHOST, I prefer use LARAGON, It's very stable when compared to XAMPP
+
+### COMMANDS
 ```bash
     php artisan migrate:fresh
     php artisan migrate
     php artisan config:cache
     php artisan cache:clear
+    php artisan storage:unlink
     php artisan storage:link
     php artisan serve
 ```
